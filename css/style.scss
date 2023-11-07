@@ -1,0 +1,84 @@
+html{
+    --main-bg-light: #f1f1f1;
+    --main-bg-dark: #0c0d24;
+    --main-text-light: #f1f1f1;
+    --main-text-dark: #0c0d24;
+}
+.text-d{
+    color: var(--main-text-dark);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.text-l{
+    color: var(--main-text-light);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.top-header {
+    background-color: var(--main-bg-dark);
+    padding: 20px 0;
+}
+.top-header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+}
+
+.top-header__logo {
+    font-size: clamp(36px, 4vw, 20px);
+}
+.basket {
+    display: flex;
+    gap: 15px;
+}
+.basket__btn {
+    align-self: center;
+}
+.basket-info {
+}
+.basket__price {
+}
+
+
+
+.body-header {
+    background-color: var(--main-bg-light);
+    padding: 15px 0;
+
+}
+.body-header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+
+}
+.menu__body {
+
+}
+.menu__list {
+    display: flex;
+    gap: 15px;
+}
+.menu__item {
+}
+.menu__link {
+}
+
+.user-menu {
+}
+.burger-menu {
+    display: none;
+}
